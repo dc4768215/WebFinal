@@ -54,11 +54,12 @@ aside{
 }
 aside nav{
   font-size: 1em;
+  font-family: arial;
   padding: 1em;
 }
 aside nav ul{
   list-style:none;
-  padding-inline-start: 10px;
+  padding-inline-start: 5px;
 }
 aside nav ul a li {
   color: #fff;
