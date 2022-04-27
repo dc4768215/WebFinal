@@ -1,6 +1,6 @@
 .column {
   float: left;
-  width: 10%;
+  width: 7%;
 }
 .column1 {
   float: right;
@@ -49,21 +49,22 @@
 }*/
 aside{
   width: 200px;
-  height: 100vh;
+  height: 100vh/2;
   background: black;
 }
 aside nav{
   font-size: 1em;
-  padding:1em 0 1em 1em
+  padding: 1em;
 }
 aside nav ul{
   list-style:none;
+  padding-inline-start: 10px;
 }
 aside nav ul a li {
   color: #fff;
   position:relative;
   width:calc(100% - 1em);
-  padding:1em 0 1em 1em;
+  padding: 1em;
 }
 aside nav ul a li:hover {
   color: #000;
