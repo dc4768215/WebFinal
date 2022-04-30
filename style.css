@@ -11,42 +11,6 @@
   display: table;
   clear: both;
 }
-/*#sideNav a {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 80px;
-  font-size: 15px;
-  border-radius: 0 3px 3px;
-  font-family: arial;
-  background-color: #fbfbfb;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-  border-style: solid;
-  border-width: 2px;
-}*/
-/*.column {
-  width: 300px;
-  height: 100vh;
-  background: rgb(200,16,46);
-  padding: 1em 0 1em 1em;
-}
-.column > #sideNav {
-  font-size: 1em;
-  padding: 1em 0 1em 1em;
-}
-#sideNav > ul {
-  list-style: none;
-}
-#sideNav > ul > a {
-  color: #fff;
-  position: relative;
-  width: calc(100% - 1em);
-  padding: 1em 0 1em 1em;
-}*/
 aside{
   width: 200px;
   height: 100vh/2;
