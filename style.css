@@ -105,3 +105,6 @@ aside nav ul a{
 .draggable {
   width: 150px; height: 150px; padding: 0.5em;
 }
+#visibility {
+  visibility: hidden;
+}
