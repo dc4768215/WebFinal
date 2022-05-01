@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .column {
   float: left;
   width: 10%;
@@ -67,8 +71,40 @@ aside nav ul a{
   font-family: arial;
 }
 .draggable {
-  width: 150px; height: 150px; padding: 0.5em;
+  /* width: 150px; height: 150px; padding: 0.5em; */
 }
-#visibility {
-  visibility: hidden;
+
+/* PROF NOTE: Making links look clickable */
+nav a {
+  cursor: pointer;
+}
+
+/* PROF NOTE: Using a class so we can style all windows, also, using "display: none"
+              instead of visibility so the hidden boxes don't take up space */
+.popupWindow {
+  /* visibility: hidden; */
+  display: none;
+  padding: 2px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px #000;
+  background-color: #fff;
+  width: min-content;
+  cursor: move;
+  position: fixed;
+  /* So windows initially show up above the content, instead of below it */
+  top: 25vh;
+  left: 25vw;
+}
+
+.popupWindow > p {
+  font-weight: bold;
+  margin: 0px;
+  padding: 8px;
+  pointer-events: none;
+  background-color: #000000;
+  color: #fff;
+}
+
+.popupWindow > iframe {
+  display: flex; /* Weird fix for extra space at bottom of iFrame */
 }

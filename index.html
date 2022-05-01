@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>War on Ukraine</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- PROF NOTE: Reorganized JQUERY and JQUERY-UI scripts -->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <!-- <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="row">
@@ -22,9 +24,9 @@
         <aside>
           <nav>
             <ul>
-              <a href="#" id="button1"><li>History between Ukraine & Russia</li></a>
-              <a href="#"><li>Impact on Ukraine</li></a>
-              <a href="#"><li>Impact on Russia</li></a>
+              <a id="button1"><li>History between Ukraine & Russia</li></a>
+              <a id="ukraineButton"><li>Impact on Ukraine</li></a>
+              <a id="russiaButton"><li>Impact on Russia</li></a>
             </ul>
           </nav>
         </aside>
@@ -35,13 +37,26 @@
         </div>
       </div>
     </div>
-    <div class="draggable" class="ui-widget-content" id="visibility">
-      <p style="background-color: #ff0072">Drag me around</p>
-      <iframe src="https://www.youtube.com/embed/WUbpXWW1qN4" width="500" height="500"></iframe>
+    <div class="draggable popupWindow" class="ui-widget-content" id="historyPopup">
+      <p>History.mov</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WUbpXWW1qN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="draggable" class="ui-widget-content">
-      <p>move me</p>
+    <div class="draggable popupWindow" class="ui-widget-content" id="historyPopup1">
+      <p>Start.mov</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Tu9KgGqXDyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="draggable popupWindow" class="ui-widget-content" id="ukrainePopup">
+      <p>Impact_on_Ukraine.mov</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WUbpXWW1qN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="draggable popupWindow" class="ui-widget-content" id="russiaPopup">
+      <p>Impact_on_Russia.mov</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WUbpXWW1qN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+<!-- PROF NOTE: Reorganized JQUERY and JQUERY-UI scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
