@@ -81,6 +81,8 @@ nav a {
 
 /* PROF NOTE: Using a class so we can style all windows, also, using "display: none"
               instead of visibility so the hidden boxes don't take up space */
+
+
 .popupWindow {
   /* visibility: hidden; */
   display: none;
@@ -92,7 +94,7 @@ nav a {
   cursor: move;
   position: fixed;
   /* So windows initially show up above the content, instead of below it */
-  top: 25vh;
+  top: 5vh;
   left: 25vw;
 }
 
