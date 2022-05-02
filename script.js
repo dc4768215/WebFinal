@@ -16,6 +16,7 @@ var ukrainePopup;
 var ukrainePopup1;
 var ukrainePopup2;
 var ukrainePopup3;
+var ukrainePopup4;
 var russiaPopup;
 var russiaPopup1;
 var russiaPopup2;
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
   ukrainePopup1 = document.getElementById("ukrainePopup1");
   ukrainePopup2 = document.getElementById("ukrainePopup2");
   ukrainePopup3 = document.getElementById("ukrainePopup3");
+  ukrainePopup4 = document.getElementById("ukrainePopup4");
   russiaPopup = document.getElementById("russiaPopup");
   russiaPopup1 = document.getElementById("russiaPopup1");
   russiaPopup2 = document.getElementById("russiaPopup2");
@@ -51,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     ukrainePopup1.style.display = "block";
     ukrainePopup2.style.display = "block";
     ukrainePopup3.style.display = "block";
+    ukrainePopup4.style.display = "block";
   })
   russiaButton.addEventListener("click", function(){
     russiaPopup.style.display = "block";
