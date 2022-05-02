@@ -11,8 +11,11 @@ var historyPopup;
 var historyPopup1;
 var historyPopup2;
 var historyPopup3;
+var historyPopup4;
 var ukrainePopup;
 var ukrainePopup1;
+var ukrainePopup2;
+var ukrainePopup3;
 var russiaPopup;
 var russiaPopup1;
 var russiaPopup2;
@@ -25,8 +28,11 @@ document.addEventListener("DOMContentLoaded", function() {
   historyPopup1 = document.getElementById("historyPopup1");
   historyPopup2 = document.getElementById("historyPopup2");
   historyPopup3 = document.getElementById("historyPopup3");
+  historyPopup4 = document.getElementById("historyPopup4");
   ukrainePopup = document.getElementById("ukrainePopup");
   ukrainePopup1 = document.getElementById("ukrainePopup1");
+  ukrainePopup2 = document.getElementById("ukrainePopup2");
+  ukrainePopup3 = document.getElementById("ukrainePopup3");
   russiaPopup = document.getElementById("russiaPopup");
   russiaPopup1 = document.getElementById("russiaPopup1");
   russiaPopup2 = document.getElementById("russiaPopup2");
@@ -38,10 +44,13 @@ document.addEventListener("DOMContentLoaded", function() {
     historyPopup1.style.display = "block";
     historyPopup2.style.display = "block";
     historyPopup3.style.display = "block";
+    historyPopup4.style.display = "block";
   })
   ukraineButton.addEventListener("click", function(){
     ukrainePopup.style.display = "block";
     ukrainePopup1.style.display = "block";
+    ukrainePopup2.style.display = "block";
+    ukrainePopup3.style.display = "block";
   })
   russiaButton.addEventListener("click", function(){
     russiaPopup.style.display = "block";
