@@ -27,6 +27,8 @@ var propPopup1;
 var propPopup2;
 var propPopup3;
 var propPopup4;
+var propPopup5;
+var propPopup6;
 
 document.addEventListener("DOMContentLoaded", function() {
   button_1 = document.getElementById("button1");
@@ -52,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function() {
   propPopup2 = document.getElementById("propPopup2");
   propPopup3 = document.getElementById("propPopup3");
   propPopup4 = document.getElementById("propPopup4");
+  propPopup5 = document.getElementById("propPopup5");
+  propPopup6 = document.getElementById("propPopup6");
   button_1.addEventListener("click", function(){
     historyPopup.style.display = "block";
   })
@@ -81,5 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
     propPopup2.style.display = "block";
     propPopup3.style.display = "block";
     propPopup4.style.display = "block";
+    propPopup5.style.display = "block";
+    propPopup6.style.display = "block";
   })
 });
