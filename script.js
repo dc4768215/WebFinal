@@ -22,6 +22,8 @@ var russiaPopup;
 var russiaPopup1;
 var russiaPopup2;
 var russiaPopup3;
+var propPopup;
+var propPopup1;
 
 document.addEventListener("DOMContentLoaded", function() {
   button_1 = document.getElementById("button1");
@@ -42,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function() {
   russiaPopup1 = document.getElementById("russiaPopup1");
   russiaPopup2 = document.getElementById("russiaPopup2");
   russiaPopup3 = document.getElementById("russiaPopup3");
+  propPopup = document.getElementById("propPopup");
+  propPopup1 = document.getElementById("propPopup1");
   button_1.addEventListener("click", function(){
     historyPopup.style.display = "block";
   })
@@ -66,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     russiaPopup3.style.display = "block";
   })
   propButton.addEventListener("click", function(){
-
+    propPopup.style.display = "block";
+    propPopup1.style.display = "block";
   })
 });
